@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikas Maurya | Stock Market Education</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;font-family:Inter,sans-serif;background:#f4f6fb;color:#111}
+    .container{max-width:1200px;margin:auto;padding:20px}
+    .card{background:#fff;border-radius:18px;padding:22px;margin-bottom:22px;box-shadow:0 12px 30px rgba(0,0,0,.06)}
+    h1,h2{margin:0 0 10px}
+    h1{font-size:32px}
+    h2{font-size:22px}
+    .badge{display:inline-block;background:#0d6efd;color:#fff;padding:6px 14px;border-radius:30px;font-size:14px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+    .links a{display:block;padding:12px 16px;border-radius:12px;background:#0d6efd;color:#fff;text-decoration:none;margin:8px 0;text-align:center}
+    footer{font-size:14px;color:#555;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="container"><div class="card">
+  <h1>Vikas Maurya</h1>
+  <span class="badge">Stock Market Education</span>
+  <p>From Azamgarh, Uttar Pradesh</p>
+  <p><strong>Disclaimer:</strong> I/We Are Not SEBI Registered Advisors. Video/Live Stream Is For Educational Purpose Only. Securities quoted are exemplary and are not recommendatory.</p>
+</div>
+
+<div class="card">
+  <h2>Live Market Dashboard</h2>
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <script src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+    {
+      "colorTheme": "light",
+      "locale": "in",
+      "tabs": [
+        {
+          "title": "Indices",
+          "symbols": [
+            {"s": "NSE:NIFTY", "d": "NIFTY 50"},
+            {"s": "NSE:BANKNIFTY", "d": "BANK NIFTY"},
+            {"s": "BSE:SENSEX", "d": "SENSEX"}
+          ]
+        }
+      ]
+    }
+    </script>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: tredingwithexploreindia@gmail.com</p>
+    <p>Phone: 8933811292</p>
+  </div>
+
+  <div class="card links">
+    <h2>Broker Links</h2>
+    <a href="https://ekyc.gopocket.in/?refer=AB6274&type=1" target="_blank">GoPocket Account</a>
+    <a href="https://angel-one.onelink.me/Wjgr/6zjc6i7b" target="_blank">Angel One Account</a>
+  </div>
+
+  <div class="card links">
+    <h2>Social Media</h2>
+    <a href="https://t.me/+iqAanYFhR0o0NGJl" target="_blank">Telegram</a>
+    <a href="https://www.instagram.com/vikas_mauryavanshi00" target="_blank">Instagram 1</a>
+    <a href="https://www.instagram.com/sky_broking__" target="_blank">Instagram 2</a>
+    <a href="https://www.instagram.com/up_wala_tredar" target="_blank">Instagram 3</a>
+    <a href="https://youtube.com/@gopockethindi" target="_blank">YouTube</a>
+  </div>
+</div>
+
+<footer>
+  © 2025 Vikas Maurya | Stock Market Education
+</footer>
+
+  </div>
+</body>
+</html>
